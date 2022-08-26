@@ -1,0 +1,72 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Broadcom HFBR-1531Z
+#
+DEF HFBR-1531Z U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "HFBR-1531Z" 0 300 50 H V L CNN 
+F2 "Broadcom-HFBR-1531Z-*" 0 400 50 H I L CNN 
+F3 "https://docs.broadcom.com/docs/AV02-1501EN" 0 500 50 H I L CNN 
+F4 "+85°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-40°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "Optoelectronics" 0 1000 50 H I L CNN "device class L1"
+F9 "Fiber Optics" 0 1100 50 H I L CNN "device class L2"
+F10 "unset" 0 1200 50 H I L CNN "device class L3"
+F11 "XMITTER FIBER OPTIC VERT 5MBD" 0 1300 50 H I L CNN "digikey description"
+F12 "516-2048-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "40ns" 0 1500 50 H I L CNN "fall time"
+F14 "60mA" 0 1600 50 H I L CNN "forward current"
+F15 "1.67V" 0 1700 50 H I L CNN "forward voltage"
+F16 "18.8mm" 0 1800 50 H I L CNN "height"
+F17 "Yes" 0 1900 50 H I L CNN "lead free"
+F18 "9be3132432154b3d" 0 2000 50 H I L CNN "library id"
+F19 "Broadcom" 0 2100 50 H I L CNN "manufacturer"
+F20 "Fiber Optic Transm. Module -14, 3dBm 5Mb/" 0 2200 50 H I L CNN "mouser description"
+F21 "630-HFBR-1531Z" 0 2300 50 H I L CNN "mouser part number"
+F22 "PTH_FIBER_18MM29_10MM16" 0 2400 50 H I L CNN "package"
+F23 "5V" 0 2500 50 H I L CNN "reverse voltage"
+F24 "80ns" 0 2600 50 H I L CNN "rise time"
+F25 "Yes" 0 2700 50 H I L CNN "rohs"
+F26 "20m" 0 2800 50 H I L CNN "sensing distance"
+F27 "+85°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-40°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "650nm" 0 3100 50 H I L CNN "wavelength"
+DRAW
+X Open 3 100 -600 100 R 40 40 1 1 P 
+X Open 4 100 -700 100 R 40 40 1 1 P 
+X Anode 1 100 0 300 R 40 0 1 1 P 
+X Cathode 2 100 -400 300 R 40 0 1 1 P 
+X NC 5 1400 0 100 L 40 40 1 1 P 
+X NC 8 1400 -700 100 L 40 40 1 1 P 
+S 200 100 1300 -800 1 1 0 f
+P 2 1 1 0 300 -100 500 -100 N
+P 2 1 1 0 500 -100 400 -300 N
+P 2 1 1 0 400 -300 300 -100 N
+P 2 1 1 0 300 -300 500 -300 N
+P 2 1 1 0 400 0 400 -100 N
+P 2 1 1 0 400 -300 400 -400 N
+P 2 1 1 0 570 -100 750 -210 N
+P 2 1 1 0 750 -210 680 -210 N
+P 2 1 1 0 680 -210 730 -150 N
+P 2 1 1 0 730 -150 750 -210 N
+P 2 1 1 0 700 -200 730 -180 N
+P 2 1 1 0 550 -250 740 -370 N
+P 2 1 1 0 740 -370 720 -320 N
+P 2 1 1 0 720 -320 680 -370 N
+P 2 1 1 0 680 -370 740 -370 N
+P 2 1 1 0 700 -370 720 -340 N
+P 2 1 1 0 950 50 950 -10 N
+P 2 1 1 0 950 -60 950 -130 N
+P 2 1 1 0 950 -170 950 -230 N
+P 2 1 1 0 950 -270 950 -340 N
+P 2 1 1 0 950 -390 950 -450 N
+P 2 1 1 0 950 -480 950 -550 N
+P 2 1 1 0 950 -590 950 -650 N
+P 2 1 1 0 950 -680 950 -750 N
+ENDDRAW
+ENDDEF
+#
+# End Library
