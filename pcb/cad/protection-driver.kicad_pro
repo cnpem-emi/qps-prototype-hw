@@ -438,7 +438,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "/home/samuel-fraga/Área de Trabalho/template-sheet-A4-ENT-AIS-SEI.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
